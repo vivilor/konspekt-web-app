@@ -1,9 +1,18 @@
 # konspekt-web-app
 
+
 ## Project setup
 ```
 npm install
 ```
+
+### WebStorm webpack settings
+Configuration file (`webpack.config.js`) is needed for IDE for proper
+recognizing of `webpack`'s aliases. Go to `Languages and Frameworks ->
+Javascript -> Webpack` and set path for webpack configuration file:
+```
+<path_to_repo>/node_modules/@vue/cli-service/webpack.config.js
+``` 
 
 ### Compiles and hot-reloads for development
 ```
